@@ -1,18 +1,23 @@
-import Info from "./components/Info";
-import About from "./components/About";
-import Interest from "./components/Interest";
-import Footer from "./components/Footer";
-import './App.css';
+import React from 'react';
+import Info from './components/Info';
+import About from './components/About';
+import Interest from './components/Interest';
+import Footer from './components/Footer';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Info />
-      <About />
-      <Interest />
-      <Footer />
-    </div>
+    <div>
+      aaa
+      <div className="card">
+            <Info />
+          </div>
+          <div className="container">
+            <About />
+            <Interest />
+          </div>
+          <div className="footer">
+            <Footer />
+        </div>
+      </div>
   );
 }
-
-export default App;

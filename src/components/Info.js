@@ -1,4 +1,6 @@
 
+import React from "react"
+
 export default function Info() {
     return (
         <div className="info">
@@ -15,5 +17,5 @@ export default function Info() {
                 <button id="btn-social"> Github </button>
             </div>
         </div>
-    )
+    );
 }
