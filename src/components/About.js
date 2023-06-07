@@ -5,7 +5,7 @@ export default function About() {
         <div className="about">
         <h3 className="about--title">About</h3>
         <p className="about--description">
-        Esse aliqua aliqua ipsum fugiat sit labore cupidatat cupidatat elit. Duis exercitation adipisicing elit eu magna qui proident ad amet labore qui. Tempor incididunt aute enim voluptate. Anim do exercitation quis in occaecat laboris enim quis anim Lorem elit et sint. Ad nisi aute esse ad consectetur.
+        I'm a passionate IT professional with a Bachelor's degree in Information Technology and a love for all things computer-related. Deeply immersed in the world of programming, web development, databases, and cloud computing. Alongside my tech skills, I've honed my customer service abilities in the vibrant casino environment as a blackjack dealer, adding a unique twist to my profile.
         </p>
         </div>
     );
