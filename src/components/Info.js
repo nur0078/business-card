@@ -1,5 +1,10 @@
 import React from "react";
-import DisPic from "../images/og.png";
+import DisPic from "../assets/images/og.png";
+
+// FONT AWESOME
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Info() {
     return (
@@ -21,6 +26,7 @@ export default function Info() {
             <address>
             <a href="mailto:anurodh3@gmail.com">
                 <button className="button button--email">
+                <FontAwesomeIcon icon={faPaperPlane} className='info--icon'/>&nbsp;
                 Email
                 </button>
             </a>
@@ -31,6 +37,7 @@ export default function Info() {
             rel="noopener noreferrer"
             >
             <button className="button button--linkedin">
+            <FontAwesomeIcon icon={faLinkedin} className='info--icon'/>&nbsp;
                 LinkedIn
             </button>
             </a>

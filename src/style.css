@@ -54,6 +54,9 @@ body {
 
 .card {
   background-color: #F1D4E5;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;;
+
 
 }
 
@@ -65,8 +68,11 @@ body {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 a, a:hover, a:visited, a:active {
@@ -92,8 +98,60 @@ a, a:hover, a:visited, a:active {
 .info--buttons {
   margin-top: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  padding: 0 20px;
+
 }
+
+.button {
+  min-width: 125px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(85%);
+}
+
+.button--email {
+  border: 1px solid #EFEFEF;
+}
+
+.button--linkedin {
+  color: #000000;
+  background-color: #5093E2;
+  border: 1px solid #5093E2;
+}
+
+/* ----ABOUT---- */
+
+
+.about--title {
+  margin-top: 20px;
+}
+
+.about--description {
+  margin-top: 10px;
+}
+.interest {
+  margin-top: 20px;
+}
+.interest--paragraph {
+  margin-top: 10px;
+
+}
+h3 {
+  font: Inter;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: left;
+}
+
 img {
   width: 100%;
   border-top-left-radius: 100px;
@@ -101,9 +159,19 @@ img {
 }
 
 footer {
+  margin-top: 10px;
   background-color: #73BBC9;
-  border-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding: 2em;
   display: flex;
   justify-content: space-between;
+}
+
+.footer--icon {
+  min-width: 150px;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
 }
